@@ -1,0 +1,67 @@
+/* Reset de margem padrão */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+  padding: 40px 20px;
+  background-color: #e1f5fe;
+  border-bottom: 2px solid #b3e5fc;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Avatar */
+header img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 4px solid #fff;
+}
+
+/* Título e descrição */
+header h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color: #0277bd;
+}
+
+header .lead {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Habilidades */
+header .badge {
+  font-size: 1rem;
+  margin: 5px;
+  padding: 10px 12px;
+}
+
+/* Sessão de projetos */
+main {
+  padding: 40px 0;
+}
+
+/* Cards de projeto */
+.card {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Botões */
+.card .btn {
+  background-color: #0277bd;
+  border: none;
+}
+
+.card .btn:hover {
+  background-color: #01579b;
+}
